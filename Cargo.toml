@@ -6,7 +6,7 @@ edition = "2018"
 description = "Use hyperlocal with routerify to add local unix socket support"
 repository = "https://github.com/routerify/routerify-unixsocket"
 license = "MIT OR Apache-2.0"
-keywords = ["hyper", "hyper-rs", "router", "routing", "middleware", "hyperlocal", "hyper", "unix", "sockets", "http"]
+keywords = ["hyper", "routerify", "hyperlocal", "unix", "http"]
 categories = ["asynchronous", "web-programming", "web-programming::http-server"]
 
 [dependencies]
