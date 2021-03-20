@@ -1,11 +1,12 @@
 [package]
 name = "routerify-unixsocket"
-version = "0.1.0"
+version = "0.1.1"
 authors = ["Mathieu Rene <mathieu.rene@gmail.com>"]
 edition = "2018"
 description = "Use hyperlocal with routerify to add local unix socket support"
-repository = "https://github.com/mrene/routerify-unixsocket"
+repository = "https://github.com/routerify/routerify-unixsocket"
 license = "MIT OR Apache-2.0"
+keywords = ["asynchronous", "web-programming", "web-programming::http-server", "hyperlocal", "hyper", "unix", "sockets", "http"]
 
 [dependencies]
 hyper = "0.14.4"

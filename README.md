@@ -1,8 +1,8 @@
 # routerify-unixsocket
 [![Crates.io](https://img.shields.io/crates/v/routerify-unixsocket.svg)](https://crates.io/crates/routerify-unixsocket)
 [![Docs.rs](https://docs.rs/routerify-unixsocket/badge.svg)](https://docs.rs/routerify-unixsocket)
-[![CI](https://github.com/mrene/routerify-unixsocket/workflows/Continuous%20Integration/badge.svg)](https://github.com/mrene/routerify-unixsocket/actions)
-[![Coverage Status](https://coveralls.io/repos/github/mrene/routerify-unixsocket/badge.svg?branch=master)](https://coveralls.io/github/mrene/routerify-unixsocket?branch=master)
+[![CI](https://github.com/routerify/routerify-unixsocket/workflows/Continuous%20Integration/badge.svg)](https://github.com/routerify/routerify-unixsocket/actions)
+[![Coverage Status](https://coveralls.io/repos/github/routerify/routerify-unixsocket/badge.svg?branch=master)](https://coveralls.io/github/routerify/routerify-unixsocket?branch=master)
 
 Routerify <> Hyperlocal
 
