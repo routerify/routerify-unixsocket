@@ -12,8 +12,8 @@ Serve unix sockets with routerify
 Basic usage works by replacing `RouterService` with `UnixRouterService`, which adapts the 
 request in order to be compatible with routerify's `RequestService`.
 
-Since routerify requires an IP [`SocketAddr`](std::net::SocketAddr), the loopback address `127.0.0.1` with port 0 is used as a placeholder. 
-In order to access the unix socket's peer address and peer credential, the [`UnixRequestExt`] extension trait adds methods to the request object.
+Since routerify requires an IP `SocketAddr`, the loopback address `127.0.0.1` with port 0 is used as a placeholder. 
+In order to access the unix socket's peer address and peer credential, the `UnixRequestExt` extension trait adds methods to the request object.
 
 # Example
 
@@ -38,13 +38,13 @@ async fn main() {
         })
         .build()
         .unwrap();
-//!
+
     let service = UnixRouterService::new(router).unwrap();
-    Server::bind_unix(path)
-        .unwrap()
-        .serve(service)
-        .await
-        .unwrap()
+        Server::bind_unix(path)
+            .unwrap()
+            .serve(service)
+            .await
+            .unwrap()
 }
 ```
 

@@ -3,17 +3,15 @@ name = "routerify-unixsocket"
 version = "0.1.0"
 authors = ["Mathieu Rene <mathieu.rene@gmail.com>"]
 edition = "2018"
-description = "routerify-unixsocket mandatory description"
+description = "Use hyperlocal with routerify to add local unix socket support"
 repository = "https://github.com/mrene/routerify-unixsocket"
 license = "MIT OR Apache-2.0"
-
-# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
 hyper = "0.14.4"
 hyperlocal = "0.8.0"
 routerify = "2.0.0"
-tokio = { version="1.4.0", features=["full"] }
+tokio = { version="1.4.0", features=["net", "macros"] }
 tower = { version = "0.4.6", features=["util"] }
 
 [dev-dependencies]
