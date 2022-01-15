@@ -1,6 +1,6 @@
 [package]
 name = "routerify-unixsocket"
-version = "0.1.1"
+version = "3.0.0"
 authors = ["Mathieu Rene <mathieu.rene@gmail.com>"]
 edition = "2018"
 description = "Use hyperlocal with routerify to add local unix socket support"
