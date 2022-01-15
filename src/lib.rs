@@ -63,10 +63,7 @@ mod tests {
 
         let mut router_service = {
             let router: Router<Body, Error> = Router::builder()
-                .get("/", |req| async move {
-                    assert!(req.unix_peer_addr().is_some());
-                    assert!(req.unix_peer_cred().is_some());
-
+                .get("/", |_req| async move {
                     Ok(Response::new(Body::from(RESPONSE_TEXT)))
                 })
                 .build()
