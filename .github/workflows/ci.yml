@@ -73,8 +73,9 @@ jobs:
           prifile: minimal
           override: true
       - name: Run cargo-tarpaulin
-        uses: actions-rs/tarpaulin@v0.1
+        uses: actions-rs/tarpaulin@v0.1.3
         with:
+          version: '0.26.1'
           args: '--ignore-tests --out Lcov'
       - name: Upload to Coveralls
         # upload only if push
